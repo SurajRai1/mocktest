@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="exm.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>CUET Practice Exam</h1><br>
+
+    <div class="subject-form">
+        <label for="subject">Select Subject:</label>
+        <select id="subject" class="subject-dropdown" name="subject">
+            <option value="Economics">Economics</option>
+            <option value="History">History</option>
+            <option value="English">English</option>
+            <option value="Political Science">Political Science</option>
+            <option value="Biology">Biology</option>
+        </select>
+    </div>
+
+    <!-- Questions and Options will be dynamically generated using JavaScript -->
+    <div id="questions-container"></div>
+
+    <div class="timer" id="timer">Time Left: 20:00</div>
+
+    <button class="start-button" onclick="startExam()">Start Exam</button>
+    <button class="submit-button" onclick="submitExam()">Submit Exam</button>
+</div>
+
+<script src="exm.js"></script> <!-- Include your JavaScript file here -->
+</body>
+</html>

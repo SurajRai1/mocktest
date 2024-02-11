@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+
+
+<style>
+    /* Add your styles for the About Me section here */
+.about-me {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.container {
+    position: relative;
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.introduction {
+    text-align: center;
+    margin-top: 20px;
+}
+
+</style>
+
+
+
+
+
+
+
+<body>
+<header>
+    <link rel="stylesheet" href="style.css">
+    <div class="banner">Get free delivery on orders over $80</div>
+    <nav>
+        <div id="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6875 0H1.3125C0.588815 0 0 0.588815 0 1.3125V30.6875C0 31.4112 0.588815 32 1.3125 32H16.6875C17.4112 32 18 31.4112 18 30.6875V1.3125C18 0.588815 17.4112 0 16.6875 0ZM15.375 1.3125C15.375 1.08465 15.2099 0.875 15 0.875H2.625C2.41535 0.875 2.25 1.08465 2.25 1.3125V30.6875C2.25 30.9154 2.41535 31.125 2.625 31.125H15C15.2099 31.125 15.375 30.9154 15.375 30.6875V1.3125Z" fill="#45413E"/>
+                <path d="M16.3125 0.5625C16.3125 0.389501 16.1452 0.25 15.9375 0.25H3.6875C3.47982 0.25 3.3125 0.389501 3.3125 0.5625V0.6875H2.25C1.00718 0.6875 0 1.69468 0 2.9375V27.9375C0 29.1803 1.00718 30.1875 2.25 30.1875H4.5V30.3125C4.5 30.4855 4.66732 30.625 4.875 30.625H16.125C16.3327 30.625 16.5 30.4855 16.5 30.3125V30.1875H18.75C19.9928 30.1875 21 29.1803 21 27.9375V2.9375C21 1.69468 19.9928 0.6875 18.75 0.6875H17.25V0.5625C17.25 0.389501 17.0827 0.25 16.875 0.25H16.3125ZM16.5 27.9375C16.5 28.3119 16.1947 28.6172 15.8203 28.6172C15.4459 28.6172 15.1406 28.3119 15.1406 27.9375V2.9375C15.1406 2.56313 15.4459 2.25781 15.8203 2.25781C16.1947 2.25781 16.5 2.56313 16.5 2.9375V27.9375ZM10.0312 26.6328H8.85938C8.63269 26.6328 8.4375 26.828 8.4375 27.0547V29.7109C8.4375 29.9376 8.63269 30.1328 8.85938 30.1328H10.0312C10.2578 30.1328 10.4531 29.9376 10.4531 29.7109V27.0547C10.4531 26.828 10.2578 26.6328 10.0312 26.6328ZM12.6562 26.6328H11.4844C11.2578 26.6328 11.0625 26.828 11.0625 27.0547V29.7109C11.0625 29.9376 11.2578 30.1328 11.4844 30.1328H12.6562C12.8828 30.1328 13.0781 29.9376 13.0781 29.7109V27.0547C13.0781 26.828 12.8828 26.6328 12.6562 26.6328ZM15.2812 26.6328H14.1094C13.8828 26.6328 13.6875 26.828 13.6875 27.0547V29.7109C13.6875 29.9376 13.8828 30.1328 14.1094 30.1328H15.2812C15.5078 30.1328 15.7031 29.9376 15.7031 29.7109V27.0547C15.7031 26.828 15.5078 26.6328 15.2812 26.6328ZM4.40625 5.53125H16.5938V24.2656H4.40625V5.53125ZM3.45312 4.57812V25.2188C3.45312 25.4922 3.65625 25.6953 3.92969 25.6953H17.0703C17.3438 25.6953 17.5469 25.4922 17.5469 25.2188V4.57812C17.5469 4.30469 17.3438 4.10156 17.0703 4.10156H3.92969C3.65625 4.10156 3.45312 4.30469 3.45312 4.57812Z" fill="#45413E"/>
+            </svg>
+                            <!-- ... SVG Path Data ... -->
+            CUET <br> Mock Test
+        </div>
+        <ul class="navigation-menu">
+            <li><a href="#">Home</a>
+                <ul class="subnav">
+                    <li class="card-med" id="sup-dog"></li>
+                    <li class="card-med" id="sup-cat"></li>
+                    <li class="card-med" id="sup-bird"></li>
+                </ul>
+            </li>
+            <li><a href="exm-page.html">Practice</a>
+                <ul class="subnav">
+                    <li class="card-med" id="serv-groom"></li>
+                    <li class="card-med" id="serv-board"></li>
+                </ul>
+            </li>
+            <li><a href="#locate">Exam &amp; Syllabus</a></li>
+            <li><a href="#" onclick="return false;">About Us</a></li>
+        </ul>
+        <div id="utility">
+            <span class="material-symbols-outlined">
+                
+            </span>
+        </div>
+    </nav>
+</header>
+
+<!-- First Home page -->
+<section class="hero">
+    <h1>Your One-Stop Shop for Every Pet's Needs!</h1>
+    <div class="btn-group">
+        <a href="exm-page.html" class="btn-filled-dark">
+            <span class="material-symbols-outlined"></span>Start Practicing Now
+        </a>
+    </div>
+    <!-- End of Home page btn -->
+</section>
+
+<section id="locate">
+    <div>
+        <h2>CUET Exam & Syllabus</h2><br>
+        <p>Explore the details of the CUET exam and familiarize yourself with the comprehensive syllabus. Our dedicated team is here to guide you through the exam process and provide support along the way.
+        <div class="btn-group">
+            <button class="btn-filled-dark"><span class="material-symbols-outlined"></span>Find Exam Centers</button>
+        </div>
+    </div>
+</section>
+
+<!-- About Me section -->
+<section class="about-me">
+    <div class="container">
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <!-- Each slide with an image and introduction text -->
+                <div class="slide">
+                    <img src="suraj_image_1.jpg" alt="Suraj Rai Image 1">
+                    <p>Passionate Developer</p>
+                </div>
+                <div class="slide">
+                    <img src="suraj_image_2.jpg" alt="Suraj Rai Image 2">
+                    <p>Creative Designer</p>
+                </div>
+                <div class="slide">
+                    <img src="suraj_image_3.jpg" alt="Suraj Rai Image 3">
+                    <p>AI Enthusiast</p>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+        </div>
+        <div class="introduction">
+            <h2>About Suraj Rai</h2>
+            <p>Hello, I'm Suraj Rai, a passionate developer and creative designer. Scroll down to explore more about me.</p>
+        </div>
+    </div>
+</section>
+
+<!-- End of About Me section -->
+
+
+
+<footer class="custom-footer">
+    <div class="footer-content">
+        <p>Made by Suraj Rai<span>🚀</span></p>
+        <br>
+        <p>Inspired by Zackie Zen Codeioopen<span>🌟</span></p>
+    </div>
+</footer>
+</head>
+
+<script>
+    document.getElementById('startPracticingButton').addEventListener('click', function() {
+        window.location.href = 'exam-page.html';
+    });
+</script>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const slider = document.getElementById('slider');
+        let currentIndex = 0;
+    
+        function showSlide(index) {
+            const translateValue = -index * 100 + '%';
+            slider.style.transform = 'translateX(' + translateValue + ')';
+        }
+    
+        window.addEventListener('scroll', function () {
+            const scrollTop = window.scrollY;
+            const offsetTop = document.querySelector('.about-me').offsetTop;
+    
+            if (scrollTop > offsetTop - 300) {
+                showSlide(currentIndex);
+            }
+        });
+    
+        // You can add more functionality like auto-advancing slides or custom controls if needed
+    });
+    
+</script>
+
+</body>
+</html>

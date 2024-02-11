@@ -1,0 +1,71 @@
+/* Additional styles for the select subject page */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.subject-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subject-dropdown {
+    width: 60%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.subject-dropdown:hover,
+.subject-dropdown:focus {
+    border-color: #2980b9;
+    background-color: #d4e6f1;
+}
+
+.timer {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.start-button, .submit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover, .submit-button:hover {
+    background-color: #2980b9;
+}
