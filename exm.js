@@ -10,7 +10,7 @@ const subjects = {
     History: 2,
     English: 3,
     'Political Science': 4,
-    Biology: 5,
+    Sociology: 5,
 };
 
 const questionsPerSubject = 10;
@@ -233,59 +233,59 @@ const questionsData = {
     ],
     // Add more questions for Political Science...
 
-    Biology: [
+    Sociology: [
         {
-            question: 'What is the basic unit of life?',
-            options: ['A. Atom', 'B. Cell', 'C. Molecule', 'D. Tissue'],
-            correctAnswer: 'B',
-        },
-        {
-            question: 'Which organelle is known as the "powerhouse of the cell"?',
-            options: ['A. Nucleus', 'B. Golgi apparatus', 'C. Mitochondrion', 'D. Endoplasmic reticulum'],
-            correctAnswer: 'C',
-        },
-        {
-            question: 'What is the process by which plants make their own food using sunlight?',
-            options: ['A. Respiration', 'B. Photosynthesis', 'C. Fermentation', 'D. Transpiration'],
-            correctAnswer: 'B',
-        },
-        {
-            question: 'Which gas is essential for photosynthesis?',
-            options: ['A. Oxygen', 'B. Carbon dioxide', 'C. Nitrogen', 'D. Hydrogen'],
-            correctAnswer: 'B',
-        },
-        {
-            question: 'What is the largest organ in the human body?',
-            options: ['A. Heart', 'B. Liver', 'C. Skin', 'D. Brain'],
-            correctAnswer: 'C',
-        },
-        {
-            question: 'Which scientist is known for developing the theory of evolution by natural selection?',
-            options: ['A. Gregor Mendel', 'B. Louis Pasteur', 'C. Charles Darwin', 'D. Rosalind Franklin'],
-            correctAnswer: 'C',
-        },
-        {
-            question: 'What is the function of red blood cells in the human body?',
-            options: ['A. Transporting oxygen', 'B. Fighting infections', 'C. Clotting blood', 'D. Producing antibodies'],
-            correctAnswer: 'A',
-        },
-        {
-            question: 'What is the powerhouse of the cell?',
-            options: ['A. Nucleus', 'B. Golgi apparatus', 'C. Mitochondrion', 'D. Endoplasmic reticulum'],
-            correctAnswer: 'C',
-        },
-        {
-            question: 'Which gas do plants absorb from the atmosphere during photosynthesis?',
-            options: ['A. Oxygen', 'B. Carbon dioxide', 'C. Nitrogen', 'D. Hydrogen'],
-            correctAnswer: 'B',
-        },
-        {
-            question: 'What is the main function of the nervous system?',
-            options: ['A. Transporting nutrients', 'B. Controlling body movements', 'C. Producing hormones', 'D. Pumping blood'],
-            correctAnswer: 'B',
-        },
-    ],
-    // Add more questions for Biology...
+            question: 'What is the term for the process by which individuals internalize the values, beliefs, and norms of a society?',
+        options: ['A. Socialization', 'B. Social mobility', 'C. Social stratification', 'D. Social control'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociological perspective emphasizes the ways in which society promotes inequality and conflict among groups?',
+        options: ['A. Functionalism', 'B. Conflict theory', 'C. Symbolic interactionism', 'D. Feminist theory'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for the social process through which individuals or groups acquire or create new culture?',
+        options: ['A. Assimilation', 'B. Cultural relativism', 'C. Cultural diffusion', 'D. Cultural innovation'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Who coined the term "the sociological imagination"?',
+        options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. C. Wright Mills'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What is the concept that refers to the tendency to use one's own culture and values as the standard for judging the practices of others?',
+        options: ['A. Ethnocentrism', 'B. Cultural relativism', 'C. Cultural diffusion', 'D. Cultural assimilation'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociologist introduced the idea of the "iron cage" of rationality in modern society?',
+        options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. Talcott Parsons'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for a system of ranking individuals or groups based on unequal access to resources and opportunities?',
+        options: ['A. Socialization', 'B. Social mobility', 'C. Social stratification', 'D. Social control'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which type of society is characterized by a simple division of labor, kinship ties, and a small population?',
+        options: ['A. Industrial society', 'B. Post-industrial society', 'C. Agricultural society', 'D. Hunter-gatherer society'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What is the term for the process of changing one's beliefs, behaviors, or cultural traits to fit in with a dominant group?',
+        options: ['A. Assimilation', 'B. Cultural relativism', 'C. Cultural diffusion', 'D. Cultural accommodation'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociologist is known for his work on the theory of social capital?',
+        options: ['A. Karl Marx', 'B. Pierre Bourdieu', 'C. Max Weber', 'D. Michel Foucault'],
+        correctAnswer: 'B',
+    },
+],
+    // Add more questions for Sociology....
 };
 
 
